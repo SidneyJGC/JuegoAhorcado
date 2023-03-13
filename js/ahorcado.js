@@ -21,7 +21,6 @@ var listaPalabras = [
   "php",
   "python",
   "datos",
-  "variable",
 ];
 
 function play(dir) {
