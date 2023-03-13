@@ -38,7 +38,56 @@ body {
     z-index: 20;
     animation: rotacion var(--time);
 }
+li
+{
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 45px;
+    
+    
+}
+#TITULO{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    z-index: 10;
 
+    transform: translateX(-50%);
+}
+#Nombre{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#logouab{
+    font-family: 'Righteous', cursive;  
+}
+.LOGO {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 62px;
+    top: 40px;
+    z-index: 20;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: var(--color1);
+}
+.LOGO>input {
+    margin-left: 10px;
+    width: 65px;
+    height: 65px;
+    box-shadow: 2px 2px 5px rgb(188, 225, 250);
+    border-radius: 50%;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
 
 .modo {
     display: flex;
